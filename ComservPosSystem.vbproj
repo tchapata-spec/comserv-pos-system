@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ComservPosSystem</RootNamespace>
+    <AssemblyName>ComservPosSystem</AssemblyName>
+    <Deterministic>true</Deterministic>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Source\AdminDashboard.vb" />
+    <Compile Include="Source\CustomerManagement.vb" />
+    <Compile Include="Source\GlobalVariables.vb" />
+    <Compile Include="Source\LoginForm.vb" />
+    <Compile Include="Source\Module_Main.vb" />
+    <Compile Include="Source\ProductManagement.vb" />
+    <Compile Include="Source\PromotionManagement.vb" />
+    <Compile Include="Source\QuotationForm.vb" />
+    <Compile Include="Source\ReturnsForm.vb" />
+  </ItemGroup>
+
+</Project>
